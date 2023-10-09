@@ -1,0 +1,49 @@
+.cadre
+{
+    border-radius: 50%;
+    background-color: white;
+    height: 400px;
+    width: 400px;
+    position: relative;
+    border: 1px solid black;
+    background-image: url(12.jpg);
+    background-size: cover;
+}
+
+.heures,.cmin
+{   
+    position: absolute;
+    height: 80px;
+    width: 8px;
+    top: 200px;
+    left: 200px;
+    border-radius: 4px;
+    background-color: #507D9C;
+    transform-origin: top;
+}
+
+.minutes,.csecondes {
+    position: absolute;
+    
+    height: 120px;
+    width: 8px;
+    border-radius: 4px;
+    background-color: #507D9C;
+    left: 200px;
+    top: 200px;
+    transform-origin: top;
+    
+}
+
+.secondes,.cmsec{
+    position: absolute;
+    height: 120px;
+    width: 2px;
+    border-radius: 4px;
+    background-color: #507D9C;
+    left: 200px;
+    top: 200px;
+    transform-origin: top;
+    transform: rotate(90 deg);
+    
+}
